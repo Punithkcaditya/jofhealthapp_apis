@@ -1,0 +1,45 @@
+Array
+(
+    [Auth-Token] => FHrslJL63i0ZGbQm
+    [Content-Type] => application/json
+    [User-Agent] => PostmanRuntime/7.30.0
+    [Accept] => */*
+    [Postman-Token] => ec8a9f0a-ace7-4276-8785-cbf0e31ec350
+    [Host] => localhost
+    [Accept-Encoding] => gzip, deflate, br
+    [Connection] => keep-alive
+    [Content-Length] => 149
+    [Cookie] => ci_session=e21g7mgh9khglvklpfsmts3o0sk8bhli
+)
+
+
+data += "<td style='width: 50em;'><div class='form-group'><input id='exposureref"+i+"' type='text' placeholder='Exposure Ref. No' name='exposureref[]' class='form-control'  required/></td>";
+data += "<div class='form-group'><select name='exposure[]' id='currency"+i+"'  class='form-control' required> <option value=''>-- Exposure Type -- </option> <option>Exports</option> <option>Imports</option> <option>Buyer's Credit</option> <option>Capital Payments</option> <option>Other Payments</option> </select></div>"
+data += "<td style='width: 50em;'><div class='form-group'><input id='exposureref"+i+"' type='text' placeholder='Exposure Ref. No' name='exposureref[]' class='form-control'  required/></td>";
+
+
+
+
+     <div class='form-group'>
+                                <select name='counter[]'
+                                id='currency"+i"'
+                                class='form-control' required>
+                                <option value=''>-- Counter Party --
+                                </option>
+                                <option>one</option>
+                                <option>two</option>
+                                <option>three</option>
+                                <option>four</option>
+                                </select>
+                                </div>
+
+<input id='date<"+i+"' name='date[]'' class='form-control'  required/>
+
+<label class='form-label'>Exposure Ref. No</label>
+
+<div class='form-group'> <select name='currency[]' id='currency<?="+i+"' class='form-control' required> <option value=''>-- Choose Currency -- </option> <option>USD</option> <option>EUR</option> <option>GBP</option> <option>JPY</option> </select> </div>
+
+<div class='form-group'><input id='targetrat' type='number' name='targetrat[]' placeholder='Target Rat' class='form-control'  required/></div>
+
+
+    </div><br><div class='form-group'><input id='date"+i+"'  name='date[]' class='form-control'  required/></div><br/><div class='form-group'><select name='exposure[]' id='currency"+i+"'  class='form-control' required> <option value=''>-- Exposure Type -- </option> <option>Exports</option> <option>Imports</option> <option>Buyer's Credit</option> <option>Capital Payments</option> <option>Other Payments</option> </select></div> <br>
